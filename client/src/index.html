@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WebSocket Client</title>
+</head>
+<body>
+  <h1>WebSocket Client</h1>
+  <textarea id="message-input" placeholder="Type your message here..."></textarea>
+  <button id="send-button" onclick="sendMessage()">Send</button>
+  <template id="message-template">
+    <div class="message">
+      <span class="post"></span>
+    </br>
+      <span class="timestamp"></span>
+       </br>
+      <span class="content"></span>
+    </div>
+  </template>
+  <div id="messageList"></div>
+
+<script src="./index.js" async></script>
+</body>
+</html>
